@@ -1,0 +1,53 @@
+/* General Styling */
+.signup-page {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: #1a1a1a;
+}
+
+/* Signup Container */
+.signup-container {
+  z-index: 2;
+}
+
+/* Signup Box */
+.signup-box {
+  background: rgba(0, 0, 0, 0.8);
+  border: 1px solid #ffd700;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+.icon-header {
+  color: #ffd700;
+  margin-bottom: 15px;
+}
+
+.forgot-link,
+.register-link {
+  color: #ffd700;
+  text-decoration: none;
+}
+
+.forgot-link:hover,
+.register-link:hover {
+  text-decoration: underline;
+}
+
+.signup-btn {
+  background-color: #ffd700;
+  border: none;
+  font-weight: bold;
+  color: #1a1a1a;
+  transition: all 0.3s;
+}
+
+.signup-btn:hover {
+  background-color: #e6c200;
+  color: #fff;
+}
